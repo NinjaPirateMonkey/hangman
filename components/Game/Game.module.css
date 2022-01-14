@@ -1,0 +1,32 @@
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "main stage stats"
+        "main stage ."
+        "main stage .";
+    
+    justify-content: stretch;
+}
+
+
+.main {
+    grid-area: main;
+    background-color: orange;
+}
+
+.stage {
+    grid-area: stage;
+    background-color: purple;
+}
+
+.stats {
+    grid-area: stats;
+    background-color: #bada55;
+}
