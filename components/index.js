@@ -1,4 +1,5 @@
 import Game from './Game/Game'
+import Progress from './Progress/Progress'
 
 
 
@@ -9,4 +10,5 @@ import Game from './Game/Game'
 
 export {
     Game,
+    Progress,
 }
